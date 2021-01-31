@@ -1,0 +1,86 @@
+ul{
+    list-style-type: none;
+    
+    
+}
+ul li{
+    float: left;
+    padding: 12px 22px;
+    background-color: rgb(59, 100, 18);
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+ul li:hover{
+    background-color: rgb(28, 37, 20);
+    
+}
+.main_box{
+    width: 25%;
+    height: 150px;
+    border: 2px solid rgb(40, 165, 61);
+    background-color: aquamarine;
+    float: left;
+    margin: 15px;
+    color: crimson;
+    padding: 10px;
+    border-radius: 30px;
+    
+}
+.test{
+    color: red;
+    text-align: center;
+    font-size: 50px;
+}
+.box1{
+    margin-left: 95px;
+}
+.bg{
+    list-style-type: none;
+    text-align: center;
+    font-size: 30px;
+
+}
+.bg::before{
+    content: "Mr. ";
+    color: red;
+}
+.bg::after{
+    content: " (Bangladesh)";
+    color: green;
+}
+.hg{
+    text-align: center;
+    font-size: 30px;
+    list-style-type: none;
+}
+.focus, .pass{
+    display: block;
+    font-weight: bold;
+}
+.bn:focus-within .focus{
+    color: rgb(255, 0, 0);
+}
+.new:focus-within .pass{
+    color: rgb(247, 18, 1);
+}
+.gl{
+    width: 25%;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: aquamarine;
+    margin: 10px 20px;
+    float: left;
+}
+
+    
+.fun{
+    margin-left:3px;
+}
+.fs{
+    padding: 10px;
+    width: 30%;
+}
